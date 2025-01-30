@@ -1,0 +1,170 @@
+
+html {
+    font-size: 62.5%;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+
+body {
+    background-color: #e8e8e8;
+    margin-top: 0px; 
+}
+
+
+header {
+    background-color: white; 
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color:#666;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+}
+
+.logo a {
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav a {
+    
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav a:hover {
+    color: rgb(142, 0, 251);
+}
+
+
+.ho {
+    background-image: url(../img/himalaya-sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 120px 20px 80px;
+    text-align: center;
+}
+
+.ho h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.ho p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ho .btn-l {
+    background-color: rgb(142, 0, 251);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 30vw;
+
+}
+
+.ho .btn-l:hover {
+    background-color:  rgba(142, 0, 251, 0.445);
+}
+
+.ho .btn-r {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px #fff solid;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 30vw;
+}
+
+.ho .btn-r:hover {
+    background-color:  rgb(255, 255, 255);
+    color: #555;
+}
+
+.sec {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+.art {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-l {
+    padding: 20px;
+    width: 30%;
+    background-image: url(../img/himalaya-sunset.jpg);
+}
+
+.box-r {
+    padding: 20px;
+    width: 30%;
+    text-align: left;
+}
+
+.box-r h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    
+}
+
+.box-r p {
+    font-size: 1.5rem;
+    color: #555;
+}
+
+.about {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.5rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
