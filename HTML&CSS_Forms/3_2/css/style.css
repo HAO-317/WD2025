@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+ 
+
+:root {
+    --farb1: rgb(255, 140, 0);
+    --farb2: rgb(171, 83, 25);
+    --farb3: rgb(255, 213, 146);
+}
+    
+fieldset {
+background-color: var(--farb1);
+width: 300px;
+padding: 10px;
+}
+    
+form {
+width: 400px;
+color: white;}
+
+    
+h1 {
+    text-align: center;
+    font-weight: bold;
+    }
+    
+div {
+    margin-bottom:30px;
+    }
+
+input {
+width: 400px;
+background-color: var(--farb3);
+line-height: 3rem;
+font-size: large;
+}
+    
+.register input {
+width: 49.3%;
+}
+    
+.button-y {
+    width: 49%;
+    background-color: var(--farb2);
+    color: white;
+    
+    }
+    
+.button-no {
+    width: 49%;
+    background-color: var(--farb1);
+    color: white;
+    }
+    
+.forgot {
+    text-align: right;
+    color: rgb(0, 0, 0);
+    }
+    
+.forgot a {
+    color: rgb(0, 0, 0);
+    }
+
+    
+.button {
+    background-color: var(--farb2);
+    color: white;
+    font-weight: bold;
+    
+    }
+
+

@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main {
+    text-align:center;
+}
+
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg div{
+    font-size: small;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.bg-a{
+    background-color: rgb(183, 255, 0);
+}
+
+.bg-img{
+    background: url(../img/galaxy.jpg);
+    background-size: cover;
+    color: beige;
+}
+
+.bg-gradient{
+    background-image: linear-gradient(to right, yellow , rgb(128, 0, 147));
+    opacity: 0.8;
+}

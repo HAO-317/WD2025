@@ -1,0 +1,28 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+html {
+    font-size: 1em;
+    
+}
+body p::before {
+    content: "INFO";
+    background-color: #FFCC00;
+    font-weight: bold;
+}
+
+body p::after {
+    content: "\2660";
+    color: blue;
+}
+
+body p::selection {
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}

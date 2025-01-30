@@ -1,0 +1,58 @@
+@font-face{
+    font-family: "Tahoma";
+    src: url(Tahoma);
+}
+@font-face{
+    font-family: "Lucida Sans Unicode";
+    src: url(Lucida);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    font-size: 62.5%;
+}
+h1 {
+    font-family: "Tahoma";
+    font-weight: bolder;
+    font-size: 48px;
+    text-shadow: 3px 3px 3px black;
+    background-color: #333;
+    color: white;
+    text-align:center;
+    padding: 15px;
+}
+h2 {
+    text-shadow: 1px 1px 1px gray;
+    color: black;
+    font-size: 2em;
+    
+    letter-spacing: 10px;
+    padding: 10px 20px 10px 20px;
+}
+p {
+    font-family: "Lucida Sans Unicode";
+    color: #333;
+    font-size: 20px;
+    word-spacing: 50%;
+    text-indent: 50px;
+    padding: 10px 20px 10px 20px;
+}
+
+p:nth-last-of-type(2) {
+    background-color: #777;
+    color: black;
+    margin-top: 20px;
+}
+p:nth-last-of-type(1) {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+p:nth-of-type(1) {
+    word-spacing: 20px;
+}

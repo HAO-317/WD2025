@@ -1,0 +1,26 @@
+/* @font-face{
+    font-family: "DM-Serif";
+    src: url("../../DM_Serif_Text/DMSerifText-Regular.ttf");
+}
+@font-face{
+    font-family: "DM-Serif-Italic";
+    src: url(../../DM_Serif_Text/DMSerifText-Italic.ttf);
+}
+
+ 
+
+    html {
+    font-size: 10px;
+    font-size: 62.5%;
+} */
+{
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-image: url(../IMG/galaxy.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position:center ;
+}

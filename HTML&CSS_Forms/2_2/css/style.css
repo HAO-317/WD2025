@@ -1,0 +1,35 @@
+/* @font-face{
+    font-family: "DM-Serif";
+    src: url("../../DM_Serif_Text/DMSerifText-Regular.ttf");
+}
+@font-face{
+    font-family: "DM-Serif-Italic";
+    src: url(../../DM_Serif_Text/DMSerifText-Italic.ttf);
+} */
+
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red; */
+ 
+/* html {
+    font-size: 10px;
+    font-size: 62.5%;
+} */
+label {
+   display: inline;
+   margin: 20px 0 5px 0;
+}
+
+form {
+    margin-bottom: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 300px;
+}
+
+

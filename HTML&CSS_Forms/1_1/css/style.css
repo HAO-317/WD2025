@@ -1,0 +1,56 @@
+/* @font-face{
+    font-family: "DM-Serif";
+    src: url("../../DM_Serif_Text/DMSerifText-Regular.ttf");
+}
+@font-face{
+    font-family: "DM-Serif-Italic";
+    src: url(../../DM_Serif_Text/DMSerifText-Italic.ttf);
+} */
+
+/* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red; */
+ 
+/* html {
+    font-size: 10px;
+    font-size: 62.5%;
+} */
+
+.form {
+    max-width: 70vw;
+    min-width: 400px;
+    margin: auto;
+}
+
+.req::after {
+    content: '*';
+    color: red;
+}
+#vname, #nname {
+    width: 48%;
+}
+
+#mail, #sele, #textarea {
+    width: 100%;
+}
+
+label, button {
+    display: block;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+button {
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+
+button:hover {
+    background-color: rgba(0, 128, 0, 0.49);
+}

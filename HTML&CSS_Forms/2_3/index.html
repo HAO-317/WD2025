@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HT/CSS_FORM_2_2</title>
+</head>
+
+<body>
+    <form>
+      <fieldset>
+        <legend>Register Form</legend>
+        <div>
+          <label for="name" class="l-space">Name</label>
+          <input type="text" id="name" placeholder="Name"  />
+        </div>
+        <div>
+          <label for="Surname" class="l-space">Surname</label>
+          <input type="text" id="name" placeholder="Surname"
+          />
+        </div>
+        <div>
+          <label for="email" class="l-space">Email</label>
+          <input type="email" id="email" placeholder="email"
+          />
+        </div>
+
+        <div>
+          <label class="l-space">Gender</label>
+
+          <label for="male">Male</label>
+          <input id="male" type="radio" name="gender" value="male"
+          />
+
+          <label for="female">Female</label>
+          <input id="female" type="radio" name="gender" value="female"
+          />
+
+          <label for="divers">Divers</label>
+          <input id="divers" type="radio" name="gender" value="divers"
+          />
+        </div>
+
+        <div>
+          <label for="file" class="l-space">Picture</label>
+          <input type="file" id="file" />
+        </div>
+        <div>
+          <label for="country" class="l-space">Country</label>
+          <select name="country" id="country">
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="USA">USA</option>
+          </select>
+        </div>
+        <div>
+          <label for="Preferred languages" class="l-space"
+            >Preferred languages</label>
+
+          <select name="cars" id="cars" multiple>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JS</option>
+            <option value="react">REACT</option>
+          </select>
+        </div>
+        <p>
+          Hold down the Ctrl (windows) or Command (Mac) button to select
+          multiple options.
+        </p>
+        <div>
+          <label class="l-space">fieled of activity</label>
+
+          <label for="it">IT</label>
+          <input type="checkbox" id="it"  />
+
+          <label for="design">Design</label>
+          <input type="checkbox" id="design"  />
+
+          <label for="other">Other</label>
+          <input type="checkbox" id="other"  />
+        </div>
+        <div class="button">
+          <input type="reset" value="reset" />
+          <input type="submit" value="submit" />
+        </div>
+      </fieldset>
+    </form>
+</body>
+
+
+</html>

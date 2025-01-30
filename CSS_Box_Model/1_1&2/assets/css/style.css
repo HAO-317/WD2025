@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid black;
+    margin: 25px;
+    background-color: rgb(71, 255, 218);
+    margin: 0 auto;
+}
+
+
+
+div {
+    border: 1px solid black;
+    width: 30vw;
+    margin: 0 auto;
+}
+
+div p {
+    background-color: rgb(249, 229, 53);
+    padding: 25px;
+    margin: 25px;
+    border: 3px solid gray;
+}

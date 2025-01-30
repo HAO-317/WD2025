@@ -1,0 +1,36 @@
+/* @font-face{
+    font-family: "DM-Serif";
+    src: url("../../DM_Serif_Text/DMSerifText-Regular.ttf");
+}
+@font-face{
+    font-family: "DM-Serif-Italic";
+    src: url(../../DM_Serif_Text/DMSerifText-Italic.ttf);
+}
+
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+
+    html {
+    font-size: 10px;
+    font-size: 62.5%;
+} */
+
+section {
+    background-image: url('../img/pic1.jpg');
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+article {
+    
+    background-image: url('../img/pic2.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;  
+    
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>HT/CSS_FORM_1_1</title>
+</head>
+
+<body>
+    <h1>FORMS 1_1</h1>
+  
+    <form class="form">
+    <label for="Vorname" class="req">Name</label>
+    <input id="vname" type="text" placeholder="Vorame" required/>
+
+    <input id="nname" type="text" placeholder="Nachname" required/>
+   
+    <label for="mail" class="req">E-Mail</label>
+    <input id="mail" type="email" required />
+
+    <label for="sele" class="req">Thema</label>
+         <select id="sele" required>
+            <option value="A">General</option>
+            <option value="B">Advertise</option>
+            <option value="C"> Partnership und Nachricht</option>
+         </select>
+
+     <label for="textarea" class="req">Nachricht</label>
+     <textarea cols="40" rows="10" id="textarea" required ></textarea>
+<br>
+    <button type="submit">Submit</button>
+
+    </form>
+
+       
+</body>
+
+</html>
