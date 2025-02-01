@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato Regular';
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px dotted rgb(47, 255, 75);
+}
+
+body {
+    background-color: rgb(213, 236, 225);
+}
+
+
+header {
+    font-size: clamp(1rem, 2vw, 4rem);
+    padding: 2vh 3vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    align-items: center;
+    gap: 1rem 4rem;
+    justify-content: space-around;
+ 
+}
+
+header article img {
+    width: 5rem;
+}
+
+
+header .logo {
+    display: flex;
+    align-content:space-evenly;
+    align-items:center;
+    gap: 1rem;
+}
+
+
+header nav, header div {
+    display: flex;
+    gap: 0 20px;
+    align-items: baseline;
+   
+    
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 0 20px;
+    align-content: center;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: rgb(0, 255, 204);
+}
+
+
+.wrapper {
+    background-color: rgb(213, 236, 225);
+    padding: 5vh 0 0 0;
+    margin: 0 10vw;
+    font-size: clamp(0.8rem, 1.5vw, 4rem);
+    display: flex;
+    
+}
+    
+
+
+
+.rings {
+    
+    height: auto;
+    display: flex;
+    margin: 0 10vw;
+
+    justify-content: space-evenly;
+
+    align-items:flex-start;
+
+    flex-wrap: wrap; 
+}
+
+
+.rings div {
+    font-size: clamp(0.6rem, 1.5vw, 3rem);
+    height: 20vw;
+    width: 30vw;
+    border-radius: 2%;
+    margin: 1% 1%;
+    text-align:right;
+    padding: 2%;
+}
+
+
+.r1 {
+    background-color: white;
+    align-self: center;
+    background-image: url(../img/ring1.webp) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height: 100px;
+    background-position: center;
+
+    
+    
+}
+
+.r2 {
+    background-color: white;
+    align-self: center;
+    background-image: url(../img/ring2.webp) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height: 100px;
+    background-position: center;
+}
+
+.r3 {
+    background-color: white;
+    align-self: center;
+    background-image: url(../img/ring3.webp) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height: 100px;
+    background-position: center;
+}
+
+.r4 {
+    background-color: white;
+    align-self: center;
+    background-image: url(../img/ring4.jpg) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height: 100px;
+    background-position: center;
+}
+
+.r5 {
+    background-color: white;
+    align-self: center;
+    background-image: url(../img/ring5.webp) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height: 100px;
+    background-position: center;
+}
+
+.r6 {
+    background-color: white;
+    align-self: center;
+    background-image: url(../img/ring6.webp) ;
+    background-repeat: no-repeat;
+    background-size:contain;
+    min-height: 100px;
+    background-position: center;
+}
