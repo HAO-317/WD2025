@@ -1,11 +1,16 @@
 /* !Basic */
+@font-face {
+    font-family: 'raleway';
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
 
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px dotted rgb(111, 255, 0); */
+    border: 2px dotted rgb(111, 255, 0);
+    
 }
 
 :root {
@@ -30,7 +35,7 @@ a {
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'raleway';
 }
 
 h1 {
@@ -46,11 +51,12 @@ p {
     display: inline-block;
     background-color: var(--main-color);
     padding: 15px 10px;
-    min-width: 18vw;
+    min-width: 15vw;
     color: white;
     text-transform: uppercase;
     font-size: 12px;
     border: 2px solid var(--main-color);
+    text-align: center;
 }
 .btn-main:hover{
     background-color: rgba(172, 104, 255, 0.486);
@@ -95,9 +101,15 @@ header nav {
     background-color: white;
     padding: 0 var(--space-lr);
     height: 5%;
+    min-height: 35px;
 }
 
-nav a {
+header nav h3 {
+    font-weight: lighter;
+    font-size: ;
+}
+
+nav a { 
     padding: 10px 1.5vw;
 }
 
@@ -201,7 +213,7 @@ header article div p {
     align-items: center;
 
     text-align: center;
-    padding: 10vw var(--space-lr);
+    padding: 10v0w var(--space-lr);
 
     color: black;
 
@@ -224,7 +236,7 @@ header article div p {
 }
 
 .limitless img {
-    margin-bottom: -1vh;
+
 }
 
 
@@ -346,7 +358,8 @@ header article div p {
 }
 .clients img {
     height: 10vw;
-    min-height: 5rem;
+    min-height: 4rem;
+    max-height: 6rem;
     margin: 2vw 5vw ;
 
 }
