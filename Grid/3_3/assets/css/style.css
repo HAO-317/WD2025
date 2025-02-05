@@ -1,0 +1,220 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 1px dotted red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --back-color: #edeedc;
+}
+
+
+body {
+    font-family: 'Times New Roman', serif;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+    max-width: 1200px;
+    min-width: 500px;
+}
+h2 {
+    font-size: clamp(1.2rem, 3vw, 4rem);
+}
+h3 {
+    font-size: clamp(0.8rem, 1.8vw, 3rem);
+    margin-bottom: 1rem;
+}
+.txt-box p {
+    font-size: clamp(0.7rem, 1.5vw, 2rem);
+    margin-bottom: 1rem;
+}
+ 
+.header {
+    background-color: var(--back-color);
+    grid-column: 1 / -1;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+
+.header h1 {
+    font-size:  clamp(2rem, 2.5rem, 3rem);
+    margin-bottom: 5px;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.9em;
+    border-top: 1px solid black;
+    padding-top: 5px;
+}
+
+.headline {
+    background-color: var(--back-color);
+    max-height: 5rem;
+    min-height: 3rem;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    column-gap: 5px;
+
+    gap: 10px;
+}
+
+section .head-txt {
+    background-color: var(--back-color);
+
+    grid-column: 1 / 5;
+
+    align-self: stretch;
+    justify-self: stretch;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.ad-head {
+    font-size: clamp(0.8rem, 1.8vw, 3rem);
+}
+
+
+section .ad-head {
+    background-color: var(--back-color);
+
+    align-self: stretch;
+    justify-self: stretch;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.container {
+    background-color: var(--back-color);
+    min-height: 60vh;
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    grid-template-columns: repeat(5, 1fr);
+
+    column-gap: 5px;
+
+    gap: 10px;
+}
+
+section .bild {
+    grid-column: 3 / 5;
+
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    overflow: hidden;
+    object-fit:cover;
+    gap: 2%;
+}
+section .bild img {
+    width: 100%;  
+    object-fit: cover; 
+}
+      
+
+
+section .bild p {
+    font-size: clamp(0.7rem, 1.5vw, 2rem);
+
+font-style: italic;
+
+}
+
+section .advert {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+
+}
+
+section .ad-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vw;
+    width: 18vw;
+
+    border: #000000 solid 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.ad1 {
+    font-size: clamp(1rem, 4vw, 3rem);
+    text-align: center;
+}
+
+section .ad-box2 {
+    display: flex;
+    justify-content: center;
+ 
+    flex-direction: column;
+    gap: 5%;
+
+    min-height: 18vw;
+    width: 18vw;
+
+    border: #000000 solid 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.ad2h4 {
+    font-size: clamp(0.8rem, 2vw, 3rem);
+    text-align: center;
+}
+.ad2p {
+    font-size: clamp(0.5rem, 1vw, 2rem);
+    text-align: center;
+}
+.ad2h5 {
+    font-size: clamp(0.65rem, 1.7vw, 3rem);
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: underline;
+
+}
+
+
+section .ad-box img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 16vw;
+    width: 16vw;
+    object-fit: cover;
+ 
+}
+
+
+

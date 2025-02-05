@@ -35,6 +35,11 @@ header {
  
 }
 
+.logo_xx {
+    display: flex;
+    align-items: center;
+} 
+
 header article img {
     width: 5rem;
 }
@@ -109,6 +114,9 @@ header a:hover {
     margin: 1% 1%;
     text-align:right;
     padding: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 

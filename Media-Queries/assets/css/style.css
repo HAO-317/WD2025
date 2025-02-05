@@ -242,7 +242,7 @@ header article div p {
 
 .gallery {
     
-    width: 100vw; 
+    /* width: 100vw;  */
     background: black; 
     display: flex; 
     flex-wrap: wrap; 
@@ -250,11 +250,17 @@ header article div p {
     padding: 10vh 0; 
     color: black; 
     /* margin-bottom: 5vh; */
+    flex-direction: column;
+}
+
+.gallery div div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .gallery img {
     width: 24vw;
-    height: 18vw;
+    height: 300px;
     object-fit: cover; 
     margin: 3vh 1px; 
 }
@@ -306,7 +312,7 @@ header article div p {
 }
 
 .costums {
-    height: 50vw;
+    min-height: 50vw;
     background: url("../img/customers_backgr.png") no-repeat center /cover;
     background-attachment: fixed;
 
@@ -409,6 +415,9 @@ footer a {
     height: 2rem;
     width: 3rem; 
 }
+.totop {
+    margin-bottom: -80px;
+}
  
 
 
@@ -479,7 +488,7 @@ footer a {
 @media (max-width: 768px) {
     .gallery img {
         width: 45vw; 
-        height: 40vw; 
+        /* height: 45vw;  */
     }
 }
 
