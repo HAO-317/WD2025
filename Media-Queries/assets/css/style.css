@@ -98,7 +98,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    /* background-color: white; */
     padding: 0 var(--space-lr);
     height: 5%;
     min-height: 35px;
