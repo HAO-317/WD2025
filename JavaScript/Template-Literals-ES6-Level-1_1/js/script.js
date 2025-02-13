@@ -1,6 +1,4 @@
-console.log();
-
-    let vorname = "HAO";
+ let vorname = "HAO";
     let nachname = "LEE";
     let alter = 45;
     let geburtsort = "XI'AN";
@@ -18,9 +16,14 @@ console.log();
 
     let temLiText = `Mein Name ist ${vorname} ${nachname}. Ich bin ${alter} Jahre alt und komme aus ${geburtsort}. Ich bin ${groesse}m groß und wiege ${gewicht}kg. Mein Hobby ist ${hobby}. Wenn möglich, spiele ich gerne ${computerspiel}, und mein Lieblingsessen ist ${lieblingsessen}. Ich mache gerne ${lieblingssport} und mein Lieblingsmodemarke ist ${lieblingsmodemarke}. Meine Lieblingsjahreszeit ist der ${lieblingsjahreszeit} und mein Lieblingsurlaubsort ist ${lieblingsurlaubsort}.`;
 
-    // console.log(concatText);
-    // console.log(temLiText);
-    const outputElement = document.getElementById('output');
-    const outputTemplateElement = document.getElementById('outputTemplate');
+    console.log(concatText);
+    console.log(temLiText);
+    
+    let Text1 = document.getElementById('output');
+    Text1.innerHTML = concatText;
+
+    let Text2 = document.getElementById('outputTemplate');
+    Text2.innerHTML = temLiText;
+
 
  
